@@ -1,0 +1,13 @@
+deb http://mirror.xeonbd.com/ubuntu-archive jammy main universe restricted
+deb-src http://mirror.xeonbd.com/ubuntu-archive jammy main universe restricted
+deb http://mirror.xeonbd.com/ubuntu-archive jammy-updates main universe restricted
+deb-src http://mirror.xeonbd.com/ubuntu-archive jammy-updates main universe restricted
+deb http://mirror.xeonbd.com/ubuntu-archive jammy-backports main universe restricted
+deb-src http://mirror.xeonbd.com/ubuntu-archive jammy-backports main universe restricted
+deb http://mirror.xeonbd.com/ubuntu-archive jammy-security main universe restricted
+deb-src http://mirror.xeonbd.com/ubuntu-archive jammy-security main universe restricted
+
+deb http://mirror.limda.net/ubuntu-archive jammy universe main
+deb-src http://mirror.limda.net/ubuntu-archive jammy universe main
+deb http://mirror.visiontech.com.bd/ubuntu jammy-updates universe main
+deb-src http://mirror.visiontech.com.bd/ubuntu jammy-updates universe main
