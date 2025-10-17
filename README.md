@@ -25,8 +25,8 @@ The VNC implementation (desktop + password + server start logic) is largely base
 ## 🏗️ Build Instructions
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/AHMMAD-JOBAYER/ros2-humble-docker-image-with-VNC.git
+cd ros2-humble-docker-image-with-VNC
 docker build -t ros2-vnc .
 ````
 
@@ -44,7 +44,7 @@ cd ~/app
 ./start-vnc.sh
 ```
 
-Then open a VNC viewer and connect to:
+Then open a VNC viewer (Like TigerVNC) and connect to:
 
 * **Address:** `localhost:5901`
 * **Password:** `password` (default — change in Dockerfile)
@@ -71,7 +71,7 @@ You will see the XFCE desktop with ROS 2 Humble ready to use.
 
 ## 📑 Acknowledgments
 
-This project’s VNC setup is adapted from Gustavo Lewin’s article *“How to make a Docker container with VNC access”*. His guidance on installing XFCE, configuring `.vnc/passwd`, and scripting the VNC start command was extremely helpful. ([Medium][1])
+This project’s VNC setup is adapted from Gustavo Lewin’s article *“How to make a Docker container with VNC access”*. ([Medium][1])
 
 
 [1]: https://medium.com/%40gustav0.lewin/how-to-make-a-docker-container-with-vnc-access-f607958141ae "How to make a Docker container with VNC access | by Gustavo Lewin | Medium"
